@@ -1,0 +1,186 @@
+/*****************   Comman Styles  *********************/
+body {
+  font-family: Arial regular !important;
+}
+#toast-container>div {
+  opacity:1;
+}
+.breadcrumb {
+  background-color: #ffffff !important;
+  padding: 0px !important;
+  margin: 20px 0px;
+}
+sup{
+    border-radius: 50%;
+    top: -.5em;
+    left: -15px;
+    background:#0088FF;
+    color: #ffffff;
+    padding: 2px 6px;
+    top: -13px;
+    width: 25px;
+    font-weight: 900;
+    height: 25px;
+}
+/*****************   Product Detail page Tabs *********************/
+.pdp a{
+  border: none;
+}
+
+.pdp .nav-tabs .nav-link {
+  border: none !important;
+  border-radius: unset !important;
+}
+.pdp .nav-tabs .nav-item {
+  margin-bottom: 1px !important;
+}
+.pdp .nav-tabs .nav-item.show .nav-link, .pdp .nav-tabs .nav-link.active{
+  border-bottom: 2px solid gray !important; 
+}
+/*****************   others  *********************/
+.hr hr {
+  border: 1px solid #A9A9A9;
+  margin: 10px auto;
+}
+.border-top-2 {
+  border-top: 2px solid #A9A9A9;
+}
+.border-right-2 {
+  border-right: 2px solid #A9A9A9;
+}
+.border-bottom-2 {
+  border-bottom: 2px solid #A9A9A9;
+}
+.bg-gray {
+  background-color: #f0f3f5;
+}
+.sidebar_nav a {
+  color: #212529;
+}
+.btn-primary{
+  background: #05386B !important;
+  color:#fff;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  border:none !important;
+  padding: 9px !important;
+  font-size:16px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-secondary{
+  background: #ECF2F5 !important;
+  color:#05386B !important;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  border:none !important;
+  padding: 9px !important;
+  font-size:16px;
+  cursor: pointer;
+}
+.btn-secondary:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.accordion .card:first-of-type {
+    padding-left: 16px !important;
+}
+.page-link{
+  color: #747474;
+  background-color: #fff !important;
+  border: none !important;
+  font-size:12px;font-weight: bold;
+}
+.pagination-page.page-item.active .page-link {
+    z-index: 1;
+      color: #05386B;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pagination-page .page-link{color:#AEB1B2;}
+.pagination-first .page-link,.pagination-last .page-link{color: #747474;font-size: 18px;line-height: 0.7;}
+.pagination-first.disabled.page-item .page-link,.pagination-last.disabled.page-item .page-link{color: #AEB1B2;}
+.pagination-first.page-item .page-link:hover,.pagination-last.page-item .page-link:hover{color: #747474;}
+.page-item .page-link:hover{color:#AEB1B2;}
+
+.ngx-gallery-thumbnails a{
+  border: 1px solid #dee2e6 !important;
+  background-size: contain !important;
+  width: 100px !important;
+  height: 100px !important; 
+}
+.ngx-gallery-thumbnail-size-cover , .ngx-gallery-thumbnails .ngx-gallery-thumbnail{
+    background-size: none !important;
+}
+/*****************   Product Detail page Tabs *********************/
+.pdp a{
+  border: none;
+}
+
+.pdp .nav-tabs .nav-link {
+ border: none !important;
+ border-radius: unset !important;
+ color:rgb(174,177,178);
+ background-color:none;
+ font-size:18px;
+  
+}
+.pdp .nav-tabs .nav-item {
+  margin-bottom: 1px !important;
+}
+.pdp .nav-tabs .nav-item.show .nav-link, .pdp .nav-tabs .nav-link.active{
+  border-bottom: 2px solid rgb(0, 136, 255) !important; 
+  font-weight: bold;
+}
+.nav-tabs .nav-link.active{
+  background-color:rgb(236,242,245) !important;
+}
+h1 {
+  font-family: Arial regular;
+  font-size:30px;
+}
+h2 {
+  font-family: Arial regular;
+  font-size:20px;;
+}
+h3 {
+  font-family: Arial regular;
+  font-size:18px;;
+}
+.fnt-family {
+  font-family: Arial regular;
+}
+/* ****************Breadcrumb*******************/
+.sub-hd{
+    font-family: Arial regular;
+  font-size:12px;
+  color: #747474;
+ font-weight: normal;
+  
+}
+.sub-hd a{
+    color: #AEB1B2;
+}
+.sub-hd a:hover{
+    color: #0088FF;
+}
+@media screen and (min-width: 320px) and (max-width:370px){
+  .pdp .nav-tabs .nav-link {
+    font-size: 12px;
+    
+  }
+}
+@media screen and (max-width: 859px) and ( min-width: 575px ){
+  .accordion .card .card-header{
+    padding: 12px 1px !important;
+  }
+
+  .accordion .card .card-body{
+   /*padding: 12px 1px !important;*/
+   padding: 5px 10px 0px 10px;
+   }
+}
